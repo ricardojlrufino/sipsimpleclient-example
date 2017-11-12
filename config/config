@@ -1,0 +1,28 @@
+Accounts:
+    ricardo.rufino@XXX.com.br:
+        enabled = true
+        auth:
+            password = XXXXXX
+
+        sip:
+            outbound_proxy = "voip.XXX.com.br:5060;transport=udp"
+
+
+
+SIPSimpleSettings:
+    instance_id = "urn:uuid:ffbdf8a0-32b3-4636-bac4-bff301134df1"
+    audio:
+        alert_device =
+        input_device =
+        output_device =
+
+    logs:
+        trace_msrp = false
+        trace_notifications = false
+        trace_pjsip = false
+        trace_sip = false
+
+    video:
+        device =
+
+
